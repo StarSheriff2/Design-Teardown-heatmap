@@ -1,0 +1,29 @@
+.header {
+  background-color: red;
+  border: black 2px solid;
+}
+
+.top-section {
+  background-color: lightcoral;
+  border: black 2px solid;
+}
+
+.aside-section {
+  background-color: navy;
+  border: black 2px solid;
+}
+
+.big-white-section {
+  background-color: white;
+  border: black 2px solid;
+}
+
+.big-blue-ad {
+  background-color: rgb(19, 83, 165);
+  border: black 2px solid;
+}
+
+.big-white-section-2 {
+  background-color:grey;
+  border: black 2px solid;
+}
