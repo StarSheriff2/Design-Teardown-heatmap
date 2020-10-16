@@ -1,5 +1,15 @@
+/*
+  =======================
+  General layout
+  =======================
+*/
+
 body {
   background-color: #f6f3f2;
+}
+
+.d-flex {
+  display: flex;
 }
 
 /*
@@ -12,11 +22,11 @@ h1,
 h2,
 h3,
 h4 {
-  font-family: 'Nunito', sans-serif;
+  font-family: "Nunito", sans-serif;
 }
 
 p {
-  font-family: 'Noto Serif', serif;
+  font-family: "Noto Serif", serif;
 }
 
 a {
@@ -40,6 +50,38 @@ ul {
   background-color: cornflowerblue;
   border: 0;
   padding: 1em;
+}
+
+/*
+  =======================
+  Navbar
+  =======================
+*/
+
+.header {
+  padding: 1em 2em;
+  background-color: #d33a2c;
+  color: white;
+  font-family: "Nunito", sans-serif;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.logo {
+  width: 150px;
+}
+
+.nav-links li {
+  padding: 0.2em 0.5em;
+}
+
+.more-nav {
+  background-color: aqua;
+  align-items: center;
+}
+
+.cat-img {
+  width: 17px;
 }
 
 /*
@@ -70,8 +112,6 @@ ul {
   =======================
 */
 
-
-
 /*
   =======================
   Big Blue Ad
@@ -88,8 +128,6 @@ ul {
   Community Links
   =======================
 */
-
-
 
 /*
   =======================
@@ -109,7 +147,7 @@ ul {
 */
 
 .cards {
-  background-color: #ffffff
+  background-color: #ffffff;
 }
 
 /*
@@ -121,4 +159,4 @@ ul {
 .footer {
   background-color: #d33a2c;
   color: white;
-} 
+}
