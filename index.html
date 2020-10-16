@@ -7,6 +7,7 @@
   <title>Design Teardown - Heatmap</title>
   <link rel="stylesheet" href="assets/CSS/reset.css">
   <link rel="stylesheet" href="assets/CSS/main.css">
+  <link href="https://fonts.googleapis.com/css2?family=Noto+Serif:ital,wght@0,400;0,700;1,400;1,700&family=Nunito:ital,wght@0,200;0,300;0,400;0,600;0,700;0,800;1,200;1,300;1,400;1,600;1,700;1,800&display=swap" rel="stylesheet"> 
 </head>
 
 <body>
@@ -376,59 +377,62 @@
       </article>
       <a class="more-links" href="#">MORE LINKS ON TWITTER <span>→</span></a>
     </section>
-      <div class="special-div">
-        <div class="special-div-text">
-          <span>FEATURED SMASHING BOOK</span>
-          <h1 class="special-div-title">Design Systems</h1>
-          <p>Commodo iuvaret
-            invidunt qui et, in nominavi partiendo delicatissimi eos</p>
-          <button class="button special-button">Explore features ↬</button>
-        </div>
-        <a href="#"><img src="" alt="Red book"></a>
+    <div class="special-div featured">
+      <div class="special-div-text">
+        <span>FEATURED SMASHING BOOK</span>
+        <h1 class="special-div-title">Design Systems</h1>
+        <p>Commodo iuvaret
+          invidunt qui et, in nominavi partiendo delicatissimi eos</p>
+        <button class="button special-button">Explore features ↬</button>
       </div>
-    <section>
-      <h4 class="our-gides-title"><span>Our Gides</span></h4>
+      <a href="#"><img src="" alt="Red book"></a>
+    </div>
+    <section class="our-guides">
+      <h4 class="our-guides-title"><span>Our Gides</span></h4>
       <article class="card">
         <span>A SMASHING GUIDE TO</span>
         <h1 class="card-title">JacaScript & Frameworks</h1>
-        <p>React, Vue, or perhaps the lightweight Alpine.js? Whether you are an experienced 
-          JavaScript developer working with one of these frameworks, or just starting to learn, 
+        <p>React, Vue, or perhaps the lightweight Alpine.js? Whether you are an experienced
+          JavaScript developer working with one of these frameworks, or just starting to learn,
           our authors have created some tutorials for you.</p>
         <button class="button special-button">Explore Javascript & Frameworks</button>
       </article>
       <article class="card">
         <span>A SMASHING GUIDE TO</span>
         <h1 class="card-title">JacaScript & Frameworks</h1>
-        <p>React, Vue, or perhaps the lightweight Alpine.js? Whether you are an experienced 
-          JavaScript developer working with one of these frameworks, or just starting to learn, 
+        <p>React, Vue, or perhaps the lightweight Alpine.js? Whether you are an experienced
+          JavaScript developer working with one of these frameworks, or just starting to learn,
           our authors have created some tutorials for you.</p>
         <button class="button special-button">Explore Javascript & Frameworks</button>
       </article>
       <article class="card">
         <span>A SMASHING GUIDE TO</span>
         <h1 class="card-title">JacaScript & Frameworks</h1>
-        <p>React, Vue, or perhaps the lightweight Alpine.js? Whether you are an experienced 
-          JavaScript developer working with one of these frameworks, or just starting to learn, 
+        <p>React, Vue, or perhaps the lightweight Alpine.js? Whether you are an experienced
+          JavaScript developer working with one of these frameworks, or just starting to learn,
           our authors have created some tutorials for you.</p>
         <button class="button special-button">Explore Javascript & Frameworks</button>
       </article>
       <article class="card">
         <a href="#"><img src="" alt="Happy cat"></a>
-        <a href="#"><h1 class="card-title">JacaScript & Frameworks</h1></a>
-        <p>React, Vue, or perhaps the lightweight Alpine.js? Whether you are an experienced 
-          JavaScript developer working with one of these frameworks, or just starting to learn, 
+        <a href="#">
+          <h1 class="card-title">JacaScript & Frameworks</h1>
+        </a>
+        <p>React, Vue, or perhaps the lightweight Alpine.js? Whether you are an experienced
+          JavaScript developer working with one of these frameworks, or just starting to learn,
           our authors have created some tutorials for you.</p>
-          <form class="newsletter-form" action="#" method="POST">
-            <input type="email" name="email" id="email">
-            <span><input type="submit" value="Meow!"></span>
-          </form>
-          <p>Front-end, UX and design. 1× a week.
-            You can always unsubscribe with just 1 click.</p>
+        <form class="newsletter-form" action="#" method="POST">
+          <input type="email" name="email" id="email">
+          <span><input type="submit" value="Meow!"></span>
+        </form>
+        <p>Front-end, UX and design. 1× a week.
+          You can always unsubscribe with just 1 click.</p>
       </article>
       <a class="more-links" href="#">SEE ALL GUIDES<span>→</span></a>
+    </section>
   </main>
-  <footer>
-    <h4>BROWSE ALL SMASHING MAGAZINE TOPICS</h4>
+  <footer class="footer">
+    <h4 class="topics-title">BROWSE ALL SMASHING MAGAZINE TOPICS</h4>
     <ul class="topic-links">
       <li><a href="#">Topic1</a></li>
       <li><a href="#">Topic2</a></li>
@@ -468,9 +472,9 @@
     </ul>
     <p>
       With a commitment to quality content for the design community.
-Founded by Vitaly Friedman and Sven Lennartz. 2006–2020.
-Smashing is proudly running on Netlify.
-Fonts by Latinotype.
+      Founded by Vitaly Friedman and Sven Lennartz. 2006–2020.
+      Smashing is proudly running on Netlify.
+      Fonts by Latinotype.
     </p>
     <nav class="nav-footer">
       <ul>
@@ -483,7 +487,12 @@ Fonts by Latinotype.
         <li><a href="#">Advertise</a></li>
       </ul>
     </nav>
-    <a href="#"><svg viewBox="0 0 100 100" width="25" height="25" tabindex="-1" role="img" aria-labelledby="title"><title id="title">Back to top</title><path d="M10 50l50 50L70 90 30 50 70 10 60 0z" transform="translate(0 0) rotate(90 50 50)" fill="#fff" stroke="#fff"></path><image src="/images/back-to-top-arrow.png" alt="Back to top arrow" width="100%" height="100%"></image></svg>
+    <a href="#"><svg viewBox="0 0 100 100" width="25" height="25" tabindex="-1" role="img" aria-labelledby="title">
+        <title id="title">Back to top</title>
+        <path d="M10 50l50 50L70 90 30 50 70 10 60 0z" transform="translate(0 0) rotate(90 50 50)" fill="#fff"
+          stroke="#fff"></path>
+        <image src="/images/back-to-top-arrow.png" alt="Back to top arrow" width="100%" height="100%"></image>
+      </svg>
     </a>
   </footer>
 </body>

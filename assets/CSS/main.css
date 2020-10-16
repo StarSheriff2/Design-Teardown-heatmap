@@ -1,29 +1,124 @@
-.header {
-  background-color: red;
-  border: black 2px solid;
+body {
+  background-color: #f6f3f2;
 }
+
+/*
+  =======================
+  Typography
+  =======================
+*/
+
+h1,
+h2,
+h3,
+h4 {
+  font-family: 'Nunito', sans-serif;
+}
+
+p {
+  font-family: 'Noto Serif', serif;
+}
+
+a {
+  text-decoration: none;
+  color: black;
+}
+
+ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+/*
+  =======================
+  Buttons
+  =======================
+*/
+
+.button {
+  border-radius: 5px;
+  background-color: cornflowerblue;
+  border: 0;
+  padding: 1em;
+}
+
+/*
+  =======================
+  Top Section
+  =======================
+*/
 
 .top-section {
-  background-color: lightcoral;
-  border: black 2px solid;
+  background-color: #bc3428;
+  color: white;
 }
+
+/*
+  =======================
+  Aside Section
+  =======================
+*/
 
 .aside-section {
-  background-color: navy;
-  border: black 2px solid;
+  background-color: #143252;
+  color: white;
 }
 
-.big-white-section {
-  background-color: white;
-  border: black 2px solid;
-}
+/*
+  =======================
+  Latest Posts
+  =======================
+*/
+
+
+
+/*
+  =======================
+  Big Blue Ad
+  =======================
+*/
 
 .big-blue-ad {
-  background-color: rgb(19, 83, 165);
-  border: black 2px solid;
+  background-color: #1b71bb;
+  color: white;
 }
 
-.big-white-section-2 {
-  background-color:grey;
-  border: black 2px solid;
+/*
+  =======================
+  Community Links
+  =======================
+*/
+
+
+
+/*
+  =======================
+  Featured
+  =======================
+*/
+
+.featured {
+  background-color: #d33a2c;
+  color: white;
 }
+
+/*
+  =======================
+  Our Guides
+  =======================
+*/
+
+.cards {
+  background-color: #ffffff
+}
+
+/*
+  =======================
+  Footer
+  =======================
+*/
+
+.footer {
+  background-color: #d33a2c;
+  color: white;
+} 
