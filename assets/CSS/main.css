@@ -59,7 +59,7 @@ ul {
 */
 
 .header {
-  padding: 1em 2em;
+  padding: 1em 3em;
   background-color: #d33a2c;
   color: white;
   font-family: "Nunito", sans-serif;
@@ -72,7 +72,12 @@ ul {
 }
 
 .nav-links li {
-  padding: 0.2em 0.5em;
+  padding: 0.2em 1em;
+}
+
+.nav-links a {
+  color: white;
+  font-size: 1.5em;
 }
 
 .more-nav {
@@ -82,6 +87,10 @@ ul {
 
 .cat-img {
   width: 17px;
+}
+
+.search-box {
+  width: 450px;
 }
 
 /*
