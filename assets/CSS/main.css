@@ -59,12 +59,13 @@ ul {
 */
 
 .header {
-  padding: 0 2.5em;
+  padding: 0 2em;
   background-color: #d33a2c;
   color: white;
   font-family: "Nunito", sans-serif;
   justify-content: space-between;
   align-items: center;
+  font-size: 1.3em;
 }
 
 .logo {
@@ -78,7 +79,6 @@ ul {
 
 .nav-links a {
   color: white;
-  font-size: 1.3em;
 }
 
 .more-nav {
@@ -90,8 +90,27 @@ ul {
   width: 17px;
 }
 
+.search-bar {
+  width: 350px;
+}
+
+.search-form {
+  box-shadow: 5px 4px 3px rgba(00,00,00,0.20);
+  border: none;
+  border-radius: 15px;
+}
+
 .search-box {
-  width: 450px;
+  width: 100%;
+  background: white url(../images/search-outline.svg) 15px center/25px no-repeat;
+  padding: 14px 50px;
+  border: none;
+  border-radius: 15px;
+}
+
+.search-box::placeholder {
+  color: #5c5858;
+  font-weight: 600;
 }
 
 /*
