@@ -153,15 +153,54 @@ ul {
 .top-section-header {
   grid-column: 1 / -1;
   justify-content: center;
+  position: relative;
 }
 
-.top-section-header h1 {
-  font-size: 2.4em;
-  background-color: white;
-  color: black;
+.main-title {
   text-align: center;
-  display: inline;
+  justify-content: center;
+  align-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.main-title > * {
+  background-color: white;
   padding: 0.35em;
+  font-size: 2.4em;
+  color: black;
+  margin-bottom: -2px;
+}
+
+.main-title span {
+  width: 150px;
+  font-family: "Nunito", sans-serif;
+  font-weight: 700;
+}
+
+.change-theme {
+  position: absolute;
+  right: 50px;
+  top: 50px;
+  justify-content: center;
+  align-items: center;
+  font-family: "Nunito", sans-serif;
+  font-weight: 800;
+}
+
+.square-button {
+  background-color: white;
+  width: 45px;
+  height: 45px;
+  border-radius: 10px;
+  margin-right: 20px;
+  transform: rotate(-10deg);
+}
+
+.change-theme span {
+  padding: 10px;
+  border: 1px solid white;
+  border-radius: 10px;
 }
 
 .top-section-article {
