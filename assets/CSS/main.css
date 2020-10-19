@@ -59,7 +59,7 @@ ul {
 */
 
 .header {
-  padding: 1em 3em;
+  padding: 0 2.5em;
   background-color: #d33a2c;
   color: white;
   font-family: "Nunito", sans-serif;
@@ -68,16 +68,17 @@ ul {
 }
 
 .logo {
-  width: 150px;
+  width: 200px;
+  padding-top: 20px;
 }
 
 .nav-links li {
-  padding: 0.2em 1em;
+  padding: 0.2em 0.8em;
 }
 
 .nav-links a {
   color: white;
-  font-size: 1.5em;
+  font-size: 1.30em;
 }
 
 .more-nav {
@@ -102,6 +103,12 @@ ul {
 .top-section {
   background-color: #bc3428;
   color: white;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(387px, 1fr));
+}
+
+.top-section-header {
+  grid-column: 1 / -1;
 }
 
 /*
