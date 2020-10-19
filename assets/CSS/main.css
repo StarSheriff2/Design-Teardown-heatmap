@@ -123,7 +123,7 @@ ul {
   background-color: #bc3428;
   color: white;
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(387px, 50%));
+  grid-template-columns: repeat(2, 50%);
 }
 
 .top-section-header {
