@@ -75,7 +75,6 @@ ul {
 
 .nav-links li {
   padding: 0.5em 0.8em;
-  margin-right: 0.4em;
 }
 
 .nav-links a {
@@ -92,13 +91,16 @@ ul {
   background-color: rgba(00, 00, 00, 0.2);
   border-radius: 10px;
   border: none;
+  margin-left: 8px;
+}
+
+.more-nav a {
   align-items: center;
-  box-shadow: 2px 2px 2px 2px rgba(00, 00, 00, 0.2);
-  border: 0.2x solid black;
 }
 
 .cat-img {
-  width: 17px;
+  width: 30px;
+  height: auto;
 }
 
 .search-bar {
