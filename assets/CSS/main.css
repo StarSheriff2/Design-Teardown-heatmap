@@ -166,7 +166,7 @@ ul {
 
 .main-title > * {
   background-color: white;
-  padding: 0.35em;
+  padding: 0.15em 0.35em 0.35em;
   font-size: 2.4em;
   color: black;
   margin-bottom: -2px;
@@ -232,11 +232,23 @@ ul {
 }
 
 .article-title-div {
-  font-size: 35px;
+  font-size: 1.8em;
+  display: inline-block;
+  padding: 1em 0;
+}
+
+.article-title {
+  display: inline;
 }
 
 .chatbox {
   width: 20px;
+  position: relative;
+  top: 4px;
+}
+
+.article-title-div span {
+  font-size: 16px
 }
 
 /*
