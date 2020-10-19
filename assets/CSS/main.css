@@ -104,7 +104,7 @@ ul {
   background-color: #bc3428;
   color: white;
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(387px, 1fr));
+  grid-template-columns: repeat(auto-fit, minmax(387px, 50%));
 }
 
 .top-section-header {
@@ -113,6 +113,7 @@ ul {
 
 .top-section-article {
   padding: 60px 60px;
+  width: auto;
   height: 581px;
 }
 
@@ -121,8 +122,20 @@ ul {
   color: white;
 }
 
-.author-image {
+.top-image-container {
+  transform: rotate(-10deg);
+  border: 2px solid white;
   width: 55px;
+  height: 55px;
+}
+
+.author-image {
+  width: 100%;
+  transform: rotate(10deg);
+}
+
+.article-title-div {
+  font-size: 35px;
 }
 
 /*
