@@ -78,7 +78,7 @@ ul {
 
 .nav-links a {
   color: white;
-  font-size: 1.30em;
+  font-size: 1.3em;
 }
 
 .more-nav {
@@ -111,6 +111,20 @@ ul {
   grid-column: 1 / -1;
 }
 
+.top-section-article {
+  padding: 60px 60px;
+  height: 581px;
+}
+
+.author {
+  align-items: center;
+  color: white;
+}
+
+.author-image {
+  width: 55px;
+}
+
 /*
   =======================
   Aside Section
@@ -127,6 +141,11 @@ ul {
   Latest Posts
   =======================
 */
+
+.latest-posts {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(325px, 1fr));
+}
 
 /*
   =======================
