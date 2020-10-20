@@ -164,7 +164,7 @@ ul {
   flex-direction: column;
 }
 
-.main-title > * {
+.main-title>* {
   background-color: white;
   padding: 0.15em 0.35em 0.35em;
   font-size: 2.4em;
@@ -203,13 +203,17 @@ ul {
   border-radius: 10px;
 }
 
+/* Top Section Articles */
+
 .top-section-article {
-  padding: 60px 60px;
+  padding: 0 60px;
   width: auto;
   height: 581px;
+  position: relative;
 }
 
 .author {
+  padding-top: 60px;
   align-items: center;
   color: white;
 }
@@ -229,6 +233,10 @@ ul {
 
 .author-name {
   font-family: "Nunito", sans-serif;
+}
+
+.author-name strong {
+  margin-right: 0.4em;
 }
 
 .article-title-div {
@@ -251,6 +259,33 @@ ul {
   font-size: 16px
 }
 
+.hashtag-links {
+  display: flex;
+  font-size: 0.9em;
+}
+
+.hashtag-links li {
+  margin-right: 2.7em;
+}
+
+.hashtag-links span {
+  color: rgba(00, 00, 00, 0.5);
+  padding-right: 0.4em;
+}
+
+.hashtag-links sup {
+  margin-left: 0.4em;
+  font-size: 0.7em;
+  font-family: "Nunito", sans-serif;
+}
+
+.arrow-button {
+  color: white;
+  font-size: 2.6em;
+  position: absolute;
+  bottom: 40px;
+}
+
 /*
   =======================
   Aside Section
@@ -270,7 +305,7 @@ ul {
 
 .latest-posts {
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(325px, 1fr));
+  grid-template-columns: repeat(3, 1fr);
 }
 
 /*
@@ -290,6 +325,11 @@ ul {
   =======================
 */
 
+.community-links {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+}
+
 /*
   =======================
   Featured
@@ -306,6 +346,11 @@ ul {
   Our Guides
   =======================
 */
+
+.our-guides {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+}
 
 .card {
   background-color: #ffffff;
