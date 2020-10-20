@@ -405,7 +405,7 @@ ul {
   padding-right: 50px;
 }
 
-/* Special Sections */
+/* Shopify Ad */
 
 .shopify-ad {
   display: grid;
@@ -450,9 +450,34 @@ ul {
   padding-bottom: 10px;
 }
 
+.shopify-button {
+  background-color: #008060;
+  font-size: 0.7em;
+  font-family: "Noto Serif", serif;
+  font-weight: 100;
+  padding: 10px 14px;
+  color: white;
+  border: none;
+  border-radius: 5px;
+}
+
+/* Special Sections */
+
+.latest-posts :nth-child(6) {
+  background-color: #d33a2c;
+}
+
+.latest-posts :nth-child(6) img {
+  width: 270px;
+  height: auto;
+}
+
 .latest-posts :nth-child(11) {
   grid-column: 1 / -1;
   text-align: center;
+  background-color: #d33a2c;
+  margin: 0 45px;
+
 }
 
 .latest-posts :nth-child(11) img {
@@ -463,13 +488,48 @@ ul {
 .more-links {
   grid-column: 1 / -1;
   text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-decoration: underline;
 }
 
 /* Special Divs */
 
 .special-div {
   display: grid;
+  grid-template-rows: auto auto 1fr auto auto;
+  justify-items: center;
+  color: white;
   justify-content: center;
+  text-align: center;
+  padding: 25px 50px 40px;
+  border: none;
+  border-radius: 10px;
+}
+
+.special-div-title {
+  font-size: 3em;
+}
+
+.special-div-description {
+  line-height: 2em;
+}
+
+.special-div .special-button {
+  font-size: 1.2em;
+  font-weight: 800;
+}
+
+.have-account {
+  font-size: 0.8em;
+  color: white;
+  padding-top: 10px;
+}
+
+.have-account a {
+  color: white;
+  text-decoration: underline;
 }
 
 /*
@@ -484,6 +544,7 @@ ul {
   color: white;
   text-align: center;
   justify-items: center;
+  justify-content: center;
 }
 
 .blue-ad-container {
