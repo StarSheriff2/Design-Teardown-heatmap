@@ -165,7 +165,7 @@ ul {
   flex-direction: column;
 }
 
-.main-title>* {
+.main-title > * {
   background-color: white;
   padding: 0.15em 0.35em 0.35em;
   font-size: 2.4em;
@@ -398,8 +398,42 @@ ul {
 */
 
 .big-blue-ad {
+  padding: 50px 0;
   background-color: #1b71bb;
   color: white;
+  text-align: center;
+  justify-items: center;
+}
+
+.blue-ad-container {
+  width: 900px;
+  flex-direction: column;
+  align-items: center;
+}
+
+.blue-ad-container p {
+  font-size: 1.2em;
+  line-height: 2em;
+  margin: 25px 0 35px 0;
+}
+
+.blue-ad-container h1 {
+  font-size: 3.4em;
+  text-shadow: 2px 4px 3px rgba(00, 00, 00, 0.2);
+  line-height: 1.2em;
+  margin: 0;
+}
+
+.big-blue-ad-img {
+  width: 100%;
+  margin-top: 55px;
+}
+
+.special-button {
+  background-color: white;
+  color: rgb(38, 125, 204);
+  font-weight: 800;
+  font-size: 1.5em;
 }
 
 /*
