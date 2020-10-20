@@ -165,7 +165,7 @@ ul {
   flex-direction: column;
 }
 
-.main-title > * {
+.main-title>* {
   background-color: white;
   padding: 0.15em 0.35em 0.35em;
   font-size: 2.4em;
@@ -345,8 +345,11 @@ ul {
 .latest-posts {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
-  grid-template-rows: 600px 900px 600px 600px 240px;
+  grid-template-rows: 600px 800px 600px 600px 240px;
   position: relative;
+  grid-column-gap: 20px;
+  grid-row-gap: 30px;
+  padding: 0 90px 0 50px;
 }
 
 .section-titles-h4 {
@@ -366,9 +369,9 @@ ul {
   justify-items: start;
 }
 
-.g-wrapper > * {
+.g-wrapper>* {
   margin: 0;
-  padding-left: 65px;
+  padding-left: 20px;
 }
 
 .published-date {
@@ -417,7 +420,7 @@ ul {
 }
 
 .shopify-ad {
-  padding-left: 65px;
+  padding-left: 20px;
 }
 
 .friends {
@@ -476,8 +479,6 @@ ul {
   grid-column: 1 / -1;
   text-align: center;
   background-color: #d33a2c;
-  margin: 0 45px;
-
 }
 
 .latest-posts :nth-child(11) img {
@@ -663,7 +664,7 @@ ul {
   margin-bottom: 1em;
 }
 
-.footer > p {
+.footer>p {
   font-size: 0.8em;
   line-height: 2em;
 }
@@ -680,8 +681,8 @@ ul {
   text-decoration: underline;
 }
 
-.nav-footer-items > li > a,
-.topic-links > li > a {
+.nav-footer-items>li>a,
+.topic-links>li>a {
   color: white;
 }
 
