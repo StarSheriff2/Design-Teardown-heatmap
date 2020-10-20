@@ -46,10 +46,12 @@ ul {
 */
 
 .button {
-  border-radius: 5px;
+  border-radius: 0.5em;
   background-color: cornflowerblue;
   border: 0;
-  padding: 1em;
+  padding: 0.6em 0.8em;
+  font-family: "Nunito", sans-serif;
+  width: fit-content;
 }
 
 /*
@@ -164,7 +166,7 @@ ul {
   flex-direction: column;
 }
 
-.main-title>* {
+.main-title > * {
   background-color: white;
   padding: 0.15em 0.35em 0.35em;
   font-size: 2.4em;
@@ -212,6 +214,10 @@ ul {
   position: relative;
 }
 
+.top-section-article:hover {
+  cursor: pointer;
+}
+
 .author {
   padding-top: 60px;
   align-items: center;
@@ -256,7 +262,7 @@ ul {
 }
 
 .article-title-div span {
-  font-size: 16px
+  font-size: 16px;
 }
 
 .hashtag-links {
@@ -295,6 +301,39 @@ ul {
 .aside-section {
   background-color: #143252;
   color: white;
+  font-size: 1.1em;
+  line-height: 35px;
+}
+
+.aside-info-wrapper {
+  flex-direction: column;
+  padding: 50px 100px 50px 150px;
+  flex: 1;
+}
+
+.aside-description {
+  margin: 0;
+}
+
+.aside-list {
+  list-style: circle;
+  padding: 0.4em 0.3em 1em 2.7em;
+  font-size: 1.1em;
+}
+
+.aside-btn {
+  color: white;
+  background-color: yellowgreen;
+  font-size: 1.3em;
+  font-weight: 600;
+}
+
+.aside-link-img {
+  flex: 1;
+  width: 250px;
+  height: auto;
+  padding-right: 300px;
+  margin-top: -100px;
 }
 
 /*
@@ -365,4 +404,6 @@ ul {
 .footer {
   background-color: #d33a2c;
   color: white;
+  background-image: url(../images/laptop__left.svg),
+    url(../images/cat-the-behemoth.svg);
 }
