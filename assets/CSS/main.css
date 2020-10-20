@@ -51,7 +51,6 @@ ul {
   border: 0;
   padding: 0.6em 0.8em;
   font-family: "Nunito", sans-serif;
-  width: fit-content;
 }
 
 /*
@@ -166,7 +165,7 @@ ul {
   flex-direction: column;
 }
 
-.main-title > * {
+.main-title>* {
   background-color: white;
   padding: 0.15em 0.35em 0.35em;
   font-size: 2.4em;
@@ -309,6 +308,7 @@ ul {
   flex-direction: column;
   padding: 50px 100px 50px 150px;
   flex: 1;
+  align-items: baseline;
 }
 
 .aside-description {
@@ -345,6 +345,15 @@ ul {
 .latest-posts {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
+  position: relative;
+}
+
+.latest-post-title {
+  position: absolute;
+  transform: rotate(90deg);
+  text-transform: uppercase;
+  top: 30px;
+  left: -50px;
 }
 
 /*
@@ -393,6 +402,11 @@ ul {
 
 .card {
   background-color: #ffffff;
+}
+
+.newsletter img {
+  width: 600px;
+  height: auto;
 }
 
 /*
