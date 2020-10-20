@@ -345,8 +345,8 @@ ul {
 .latest-posts {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
-  grid-template-rows: 600px 900px 600px 600px 300px;
-  position: relative;
+  grid-template-rows: 600px 900px 600px 600px 240px;
+  position: relative;;
 }
 
 .section-titles-h4 {
@@ -357,16 +357,97 @@ ul {
   left: -50px;
 }
 
+/* Articles */
+
 .g-wrapper {
   display: grid;
-  text-align: center;
-  grid-template-rows: repeat(4, 1fr) 2fr;
-  justify-content: center;
-  align-content: space-between;
+  height: 100%;
+  grid-template-rows: auto auto auto 1fr 125px;
+  justify-items: start;
 }
 
-.g-wrapper > * {
+.g-wrapper>* {
   margin: 0;
+  padding-left: 65px;
+}
+
+.published-date {
+  padding-top: 50px;
+  padding-bottom: 10px;
+  text-transform: uppercase;
+  font-size: 0.8em;
+}
+
+.mid-article-title {
+  text-decoration: underline;
+  padding-bottom: 30px;
+}
+
+.author-name {
+  font-weight: 600;
+  color: rgb(122, 116, 116);
+  padding-bottom: 30px;
+}
+
+.author-name a {
+  color: rgb(122, 116, 116);
+  text-decoration: underline;
+}
+
+.article-description {
+  line-height: 2em;
+}
+
+.arrow {
+  font-size: 2em;
+  display: grid;
+  align-items: center;
+  padding-right: 50px;
+}
+
+/* Special Sections */
+
+.shopify-ad {
+  display: grid;
+  height: 100%;
+  grid-template-rows: auto 1fr;
+  justify-items: center;
+  align-items: baseline;
+  text-align: center;
+}
+
+.shopify-ad {
+  padding-left: 65px;
+}
+
+.friends {
+  font-size: 0.7em;
+  font-style: italic;
+}
+
+.friends span {
+  font-size: 1.8em;
+}
+
+.ad-box {
+  background-color: #f2f2f3;
+  border: 1px darkgrey solid;
+  border-radius: 15px;
+  padding: 20px 40px;
+}
+
+.ad-box:hover {
+  cursor: pointer;
+}
+
+.ad-box img {
+  width: 170px;
+  height: auto;
+  padding-bottom: 15px;
+}
+
+.ad-box p {
+  padding-bottom: 10px;
 }
 
 .latest-posts :nth-child(11) {
