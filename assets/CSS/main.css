@@ -346,7 +346,7 @@ ul {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
   grid-template-rows: 600px 900px 600px 600px 240px;
-  position: relative;;
+  position: relative;
 }
 
 .section-titles-h4 {
@@ -366,7 +366,7 @@ ul {
   justify-items: start;
 }
 
-.g-wrapper>* {
+.g-wrapper > * {
   margin: 0;
   padding-left: 65px;
 }
@@ -569,7 +569,63 @@ ul {
 
 .footer {
   background-color: #d33a2c;
+  position: relative;
   color: white;
+  padding-top: 50px;
+  padding-bottom: 35px;
   background-image: url(../images/laptop__left.svg),
     url(../images/cat-the-behemoth.svg);
+  background-position: left 15% bottom 1em, right 12% bottom 2em;
+  background-size: 11.2em auto, 14.2em auto;
+  background-repeat: no-repeat;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
+
+.topic-links {
+  align-items: baseline;
+  flex-wrap: wrap;
+  min-width: 800px;
+  max-width: 1010px;
+  height: auto;
+  justify-content: center;
+}
+
+.topic-links {
+  list-style: circle;
+}
+
+.topic-links li {
+  font-size: 1.4em;
+  padding-right: 1.6em;
+  margin-bottom: 1em;
+}
+
+.footer > p {
+  font-size: 0.8em;
+  line-height: 2em;
+}
+
+.nav-footer-items {
+  flex-wrap: wrap;
+  max-width: 450px;
+  height: auto;
+  justify-content: center;
+}
+
+.nav-footer-items li {
+  margin: 0.5em 0.5em;
+  text-decoration: underline;
+}
+
+.nav-footer-items > li > a,
+.topic-links > li > a {
+  color: white;
+}
+
+.back-to-top {
+  position: absolute;
+  bottom: 25px;
+  right: 15px;
 }
