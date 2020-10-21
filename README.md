@@ -8,7 +8,7 @@ In this project we applied visual hierarchy principles to to create a heatmap of
 
 We used CSS Grid, Flexbox and Floats to build the layout.
 
-![screenshot](./assets/README/Screenshot - Design Teardown - Heatmap.png)
+![screenshot](./assets/README/webpageScreenshot.png)
 
 ## Built With
 
