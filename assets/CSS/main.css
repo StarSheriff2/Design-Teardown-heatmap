@@ -158,6 +158,7 @@ ul {
 }
 
 .main-title {
+  margin-top: 25px;
   text-align: center;
   justify-content: center;
   align-content: center;
@@ -165,7 +166,7 @@ ul {
   flex-direction: column;
 }
 
-.main-title>* {
+.main-title > * {
   background-color: white;
   padding: 0.15em 0.35em 0.35em;
   font-size: 2.4em;
@@ -235,8 +236,8 @@ ul {
   width: 100%;
 }
 
-.author-name {
-  font-family: "Nunito", sans-serif;
+.top-section-article .author-name {
+  color: white;
 }
 
 .author-name strong {
@@ -368,7 +369,7 @@ ul {
   justify-items: start;
 }
 
-.g-wrapper>* {
+.g-wrapper > * {
   margin: 0;
   padding-left: 20px;
 }
@@ -387,6 +388,7 @@ ul {
 }
 
 .author-name {
+  font-family: "Nunito", sans-serif;
   font-weight: 600;
   color: rgb(122, 116, 116);
   padding-bottom: 30px;
@@ -641,7 +643,7 @@ ul {
 }
 
 .article-info .author-name {
-  padding-bottom: 10px
+  padding-bottom: 10px;
 }
 
 .article-info .article-title {
@@ -656,7 +658,41 @@ ul {
 
 .featured {
   background-color: #d33a2c;
+  width: 100%;
   color: white;
+  display: flex;
+  justify-content: space-between;
+}
+
+.special-div-text {
+  margin-left: 25px;
+  max-width: 800px;
+  flex-direction: column;
+  align-items: baseline;
+  text-align: start;
+}
+
+.special-div-text h1 {
+  margin-top: 5px;
+  margin-bottom: 0;
+}
+
+.special-div-text p {
+  margin: 1.5em 0 3em 0;
+  line-height: 2em;
+  letter-spacing: 1px;
+  font-size: 1em;
+}
+
+.featured a > img {
+  width: 250px;
+  transform: rotate(-15deg);
+  margin-right: 150px;
+  margin-top: -100px;
+}
+
+.special-div-text .special-button {
+  font-size: 1.5em;
 }
 
 /*
@@ -693,7 +729,7 @@ ul {
 .card p {
   line-height: 1.9em;
   font-size: 1.1em;
-  padding-right: 20px
+  padding-right: 20px;
 }
 
 .card .special-button {
@@ -702,11 +738,11 @@ ul {
 }
 
 .our-guides :nth-child(4) .special-button {
-  margin-bottom: 445px
+  margin-bottom: 445px;
 }
 
 .newsletter {
-  background: #318bd9 url(../images/ny20.png) center 5%/ contain no-repeat;
+  background: #318bd9 url(../images/ny20.png) center 5% / contain no-repeat;
   display: grid;
   grid-template-rows: repeat(4, auto);
   color: white;
@@ -726,7 +762,7 @@ ul {
   height: 65px;
   border: none;
   border-radius: 15px;
-  box-shadow: 2px 2px 2px rgba(00,00,00,0.6);
+  box-shadow: 2px 2px 2px rgba(00, 00, 00, 0.6);
 }
 
 .newsletter-form * {
@@ -761,6 +797,7 @@ ul {
 */
 
 .footer {
+  margin-top: 50px;
   background-color: #d33a2c;
   position: relative;
   color: white;
@@ -795,7 +832,7 @@ ul {
   margin-bottom: 1em;
 }
 
-.footer>p {
+.footer > p {
   font-size: 0.8em;
   line-height: 2em;
 }
@@ -812,8 +849,8 @@ ul {
   text-decoration: underline;
 }
 
-.nav-footer-items>li>a,
-.topic-links>li>a {
+.nav-footer-items > li > a,
+.topic-links > li > a {
   color: white;
 }
 
