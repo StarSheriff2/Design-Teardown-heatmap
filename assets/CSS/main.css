@@ -706,14 +706,14 @@ ul {
 }
 
 .newsletter {
-  background: #1b71bb url(../images/ny20.png) center 5%/ contain no-repeat;
+  background: #318bd9 url(../images/ny20.png) center 5%/ contain no-repeat;
   display: grid;
   grid-template-rows: repeat(4, auto);
   color: white;
 }
 
 .newsletter h1 {
-  margin-top: 350px;
+  margin-top: 65%;
   padding-top: 0.9em;
   margin-bottom: 0px;
   color: white;
@@ -723,11 +723,35 @@ ul {
 
 .newsletter-form {
   width: 100%;
+  height: 65px;
+  border: none;
+  border-radius: 15px;
+  box-shadow: 2px 2px 2px rgba(00,00,00,0.6);
+}
+
+.newsletter-form * {
+  border: none;
+  color: white;
 }
 
 .newsletter-form input[type="email"] {
-  height: 60px;
   width: 70%;
+  padding-left: 20px;
+  font-size: 1.3em;
+  font-family: "Noto Serif", serif;
+  color: darkgray;
+  font-style: italic;
+}
+
+.newsletter-form span {
+  width: 30%;
+}
+
+.newsletter-form input[type="submit"] {
+  width: 100%;
+  height: 100%;
+  background-color: #1a72bb;
+  font-size: 1.3em;
 }
 
 /*
