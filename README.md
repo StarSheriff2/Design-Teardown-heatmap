@@ -8,7 +8,7 @@ In this project we applied visual hierarchy principles to to create a heatmap of
 
 We used CSS Grid, Flexbox and Floats to build the layout.
 
-![screenshot](./assets/README/#################)
+![screenshot](./assets/README/Screenshot - Design Teardown - Heatmap.png)
 
 ## Built With
 
@@ -17,7 +17,7 @@ We used CSS Grid, Flexbox and Floats to build the layout.
 
 ## Live Demo
 
-[Live Demo](insert link here to live demo/)
+[Live Demo](https://starsheriff2.github.io/Design-Teardown-heatmap/)
 
 ## Authors
 
