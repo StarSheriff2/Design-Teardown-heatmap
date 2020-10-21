@@ -233,7 +233,6 @@ ul {
 
 .author-image {
   width: 100%;
-  transform: rotate(10deg);
 }
 
 .author-name {
@@ -589,7 +588,35 @@ ul {
   display: grid;
   grid-template-columns: repeat(2, 1fr);
   position: relative;
+  padding: 60px 90px 50px 50px;
 }
+
+.person-highlight {
+  grid-column: 1 / -1;
+  height: 300px;
+  justify-content: space-between;
+}
+
+.person-highlight img {
+  width: 220px;
+  height: auto;
+  border: #d33a2c 0.5em solid;
+  transform: rotate(-10deg);
+  border-radius: 10px;
+  margin-top: 30px;
+}
+
+.bio {
+  flex-direction: column;
+  width: 300px;
+}
+
+
+/* .person-highlight img {
+  width: 100%;
+  height: auto;
+} */
+
 
 /*
   =======================
