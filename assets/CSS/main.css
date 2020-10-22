@@ -91,7 +91,7 @@ ul {
   grid-auto-flow: column;
 }
 
-.nav-links li {
+.nav-links-links {
   padding: 0.5em 0.8em;
 }
 
@@ -109,10 +109,11 @@ ul {
   margin-right: 2.7em;
 }
 
-.nav-links li:hover {
+.nav-links-links:hover {
   background-color: rgba(00, 00, 00, 0.3);
   border: none;
   border-radius: 10px;
+  cursor: pointer;
 }
 
 .more-nav {
@@ -243,6 +244,10 @@ ul {
   color: white;
 }
 
+.author span {
+  color: white;
+}
+
 .top-image-container {
   transform: rotate(-10deg);
   border: 2px solid white;
@@ -253,10 +258,6 @@ ul {
 
 .author-image {
   width: 100%;
-}
-
-.top-section-article .author-name {
-  color: white;
 }
 
 .author-name strong {
@@ -454,9 +455,6 @@ ul {
   justify-items: center;
   align-items: baseline;
   text-align: center;
-}
-
-.shopify-ad {
   padding-left: 20px;
 }
 
@@ -503,22 +501,22 @@ ul {
 
 /* Special Sections */
 
-.latest-posts :nth-child(6) {
+.smashing-members {
   background-color: var(--gray4);
 }
 
-.latest-posts :nth-child(6) img {
+.smashing-members img {
   width: 270px;
   height: auto;
 }
 
-.latest-posts :nth-child(11) {
+.smashing-tv {
   grid-column: 1 / -1;
   text-align: center;
   background-color: var(--gray4);
 }
 
-.latest-posts :nth-child(11) img {
+.smashing-tv img {
   width: 200px;
   height: auto;
 }
@@ -552,6 +550,13 @@ ul {
 
 .special-div-description {
   line-height: 2em;
+}
+
+.special-button {
+  background-color: white;
+  color: var(--gray4);
+  font-weight: 800;
+  font-size: 1.5em;
 }
 
 .special-div .special-button {
@@ -609,13 +614,6 @@ ul {
   margin-top: 55px;
 }
 
-.special-button {
-  background-color: white;
-  color: var(--gray4);
-  font-weight: 800;
-  font-size: 1.5em;
-}
-
 /*
   =======================
   Community Links
@@ -635,7 +633,7 @@ ul {
   grid-column: 1 / -1;
 }
 
-.person-highlight img {
+.person-highlight-picture {
   border: 0.6em solid #d33a2c;
   border-radius: 15px;
   width: 200px;
@@ -744,7 +742,7 @@ ul {
 }
 
 .card {
-  background-color: #ffffff;
+  background-color: #fff;
   display: grid;
   grid-template-rows: repeat(4, auto);
   justify-items: baseline;
@@ -791,7 +789,7 @@ ul {
 .newsletter h1 {
   margin-top: 65%;
   padding-top: 0.9em;
-  margin-bottom: 0px;
+  margin-bottom: 0;
   color: white;
   text-decoration: underline;
   text-shadow: 2px 2px 2px rgba(00, 00, 00, 0.7);
@@ -856,8 +854,7 @@ ul {
   width: 100%;
   height: 100%;
   position: absolute;
-  background-image: url(../images/laptop__left.svg),
-    url(../images/cat-the-behemoth.svg);
+  background-image: url(../images/laptop__left.svg), url(../images/cat-the-behemoth.svg);
   background-position: left 15% bottom 1em, right 12% bottom 2em;
   background-size: 11.2em auto, 14.2em auto;
   background-repeat: no-repeat;
@@ -871,9 +868,6 @@ ul {
   max-width: 1010px;
   height: auto;
   justify-content: center;
-}
-
-.topic-links {
   list-style: circle;
 }
 
