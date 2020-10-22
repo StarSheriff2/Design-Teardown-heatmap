@@ -1,22 +1,23 @@
 ![](https://img.shields.io/badge/Microverse-blueviolet)
 
-# <insert title of project here>
+# Design Teardown Page (Heatmap of Smashing Magazine Website)
 
-> <insert brief description here> 
+> This is a project that's meant to be a teardown of the visual hierarchy of [Smashing Magezine's Website](https://www.smashingmagazine.com/).
 
-<Insert long description here including what were the projects objectives>.
+In this project we applied visual hierarchy principles to to create a heatmap of Smashing Magazine's website. The requirements were to use grayscale to show the hierarchy of the elements and clone the main layout of the page.
 
-![screenshot](./assets/README/#################)
+We used CSS Grid, Flexbox and Floats to build the layout.
+
+![screenshot](./assets/README/webpageScreenshot.png)
 
 ## Built With
 
 - HTML
 - CSS
-- <inser any other technologies or tools used here>
 
 ## Live Demo
 
-[Live Demo](insert link here to live demo/)
+[Live Demo](https://starsheriff2.github.io/Design-Teardown-heatmap/)
 
 ## Authors
 
@@ -26,10 +27,11 @@
 - Twitter: [@Turo_83](https://twitter.com/Turo_83)
 - LinkedIn: [Carlos Alvarez](https://www.linkedin.com/in/carlosalvarezveroy/)
 
-👤 **inser partner name here**
+👤 **Alejandro Contreras**
 
-- GitHub: [@bhandle](https://github.com/username)
-- LinkedIn: [inser name](https://linkedin.com/in/username)
+- GitHub: [@bAlejandroNo4](https://github.com/AlejandroNo4)
+- Twitter: [@Alejand80002666](https://twitter.com/Alejand80002666)
+- LinkedIn: [Alejandro Contreras](https://www.linkedin.com/in/alejandro-contreras-rodriguez-b524821b5/)
 
 ## Contributing
 
@@ -40,9 +42,3 @@ Feel free to check the [issues page](inser issues page address here).
 ## Show your support
 
 Give a ⭐️ if you like this project!
-
-## Acknowledgments
-
-- Hat tip to anyone whose code was used
-- Inspiration
-- etc

@@ -1,13 +1,506 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Design Teardown - Heatmap</title>
   <link rel="stylesheet" href="assets/CSS/reset.css">
   <link rel="stylesheet" href="assets/CSS/main.css">
+  <link
+    href="https://fonts.googleapis.com/css2?family=Noto+Serif:ital,wght@0,400;0,700;1,400;1,700&family=Nunito:ital,wght@0,200;0,300;0,400;0,600;0,700;0,800;1,200;1,300;1,400;1,600;1,700;1,800&display=swap"
+    rel="stylesheet">
 </head>
+
 <body>
-  
+  <header class="header d-flex">
+    <a href="#" class="logo-link">
+      <img class="logo" src="assets/images/logo--full.svg" alt="logo">
+    </a>
+    <nav class="nav">
+      <ul class="nav-links">
+        <li class="nav-links-links"><a href="#">Articles</a></li>
+        <li class="nav-links-links"><a href="#">Guides</a></li>
+        <li class="nav-links-links"><a href="#">Books</a></li>
+        <li class="nav-links-links"><a href="#">Events</a></li>
+        <li class="nav-links-links"><a href="#">Membership</a></li>
+        <li class="nav-links-links"><a href="#">Jobs</a></li>
+        <li class="nav-links-links more-nav"><a href="#" class="d-flex "> More &nbsp;<img class="cat-img"
+              src="assets/images/menu-cat.svg" alt="catIcon"></a></li>
+      </ul>
+    </nav>
+    <div class="search-bar">
+      <form class="search-form" action="#" method="post">
+        <input class="search-box" type="search" name="search-box" id="search-box" placeholder="Search articles...">
+      </form>
+    </div>
+  </header>
+  <main>
+    <section class="top-section">
+      <div class="d-flex top-section-header">
+        <div class="main-title d-flex">
+          <h1>Don't Miss These Latest</h1>
+          <span>Articles</span>
+        </div>
+        <div class="change-theme d-flex">
+          <div class="square-button"></div>
+          <span>Seriously, red?</span>
+        </div>
+      </div>
+      <article class="top-section-article">
+        <div class="author d-flex">
+          <div class="top-image-container">
+            <img class="author-image" src="assets/images/iris-lj-200px.jpg" alt="Author-img">
+          </div>
+          <span class="author-name"><strong>Kelvin Omereshore</strong><em>wrote</em></span>
+        </div>
+        <div class="article-title-div">
+          <h2 class="article-title">Supercharge Testing React Applications With Wallaby.js</h2>
+          <img class="chatbox" src="assets/images/chatbox.svg" alt="chatbox">
+          <span> Leave a coment</span>
+        </div>
+        <ul class="hashtag-links">
+          <li>
+            <span>#</span>Apps<sup>521</sup>
+          </li>
+          <li>
+            <span>#</span>Tools<sup>251</sup>
+          </li>
+          <li>
+            <span>#</span>APIs<sup>292</sup>
+          </li>
+        </ul>
+        <a class="arrow-button" href="#">→</a>
+      </article>
+      <article class="top-section-article">
+        <div class="author d-flex">
+          <div class="top-image-container">
+            <img class="author-image" src="assets/images/iris-lj-200px.jpg" alt="Author-img">
+          </div>
+          <span class="author-name"><strong>Kelvin Omereshore</strong><em>wrote</em></span>
+        </div>
+        <div class="article-title-div">
+          <h2 class="article-title">Managing Long-Running Tasks In A React App With Web Workers</h2>
+          <img class="chatbox" src="assets/images/chatbox.svg" alt="chatbox">
+          <span>Leave a coment</span>
+        </div>
+        <ul class="hashtag-links">
+          <li>
+            <span>#</span>Apps<sup>521</sup>
+          </li>
+          <li>
+            <span>#</span>Tools<sup>251</sup>
+          </li>
+          <li>
+            <span>#</span>APIs<sup>292</sup>
+          </li>
+        </ul>
+        <a class="arrow-button" href="#">→</a>
+      </article>
+      <article class="top-section-article">
+        <div class="author d-flex">
+          <div class="top-image-container">
+            <img class="author-image" src="assets/images/iris-lj-200px.jpg" alt="Author-img">
+          </div>
+          <span class="author-name"><strong>Kelvin Omereshore</strong><em>wrote</em></span>
+        </div>
+        <div class="article-title-div">
+          <h2 class="article-title">Build And Deploy An Angular Form With Netlify Forms And Edge</h2>
+          <img class="chatbox" src="assets/images/chatbox.svg" alt="chatbox">
+          <span>Leave a coment</span>
+        </div>
+        <ul class="hashtag-links">
+          <li>
+            <span>#</span>Apps<sup>521</sup>
+          </li>
+          <li>
+            <span>#</span>Tools<sup>251</sup>
+          </li>
+          <li>
+            <span>#</span>APIs<sup>292</sup>
+          </li>
+        </ul>
+        <a class="arrow-button" href="#">→</a>
+      </article>
+      <article class="top-section-article">
+        <div class="author d-flex">
+          <div class="top-image-container">
+            <img class="author-image" src="assets/images/iris-lj-200px.jpg" alt="Author-img">
+          </div>
+          <span class="author-name"><strong>Kelvin Omereshore</strong><em>wrote</em></span>
+        </div>
+        <div class="article-title-div">
+          <h2 class="article-title">Design Shopping: Get A Faster Client Buy-In Through A Guided Design Showcase</h2>
+          <img class="chatbox" src="assets/images/chatbox.svg" alt="chatbox">
+          <span>Leave a coment</span>
+        </div>
+        <ul class="hashtag-links">
+          <li>
+            <span>#</span>Apps<sup>521</sup>
+          </li>
+          <li>
+            <span>#</span>Tools<sup>251</sup>
+          </li>
+          <li>
+            <span>#</span>APIs<sup>292</sup>
+          </li>
+        </ul>
+        <a class="arrow-button" href="#">→</a>
+      </article>
+    </section>
+    <aside class="aside-section d-flex">
+      <div class="aside-info-wrapper d-flex">
+        <p class="aside-description">
+          All you want is a fast, secure web? That's why we use ad blockers, too,
+          you know. We gotta keep those servers running though... So we've set
+          up Membership for smart cookies like you. Coming up next:
+        </p>
+        <ul class="aside-list">
+          <li>Smashing TV Session with on “”,</li>
+          <li>New discounts on tools, services and tutorials,</li>
+          <li>...plus a seasoned selection of fancy cats.</li>
+        </ul>
+        <button class="button aside-btn" type="button">About Smashing Membership <span>→</span></button>
+      </div>
+      <a class="aside-link" href=""><img class="aside-link-img" src="assets/images/cat-firechat.svg"
+          alt="cat-fire-chat"></a>
+    </aside>
+    <section class="latest-posts">
+      <h4 class="section-titles-h4"><span>-------- Latest Posts</span></h4>
+      <article class="lastest-post-article">
+        <div class="g-wrapper">
+          <p class="published-date">4 days ago</p>
+          <h1 class="mid-article-title"><a href="#">Lorem Ipsum Dolor Sit Amet</a></h1>
+          <p class="author-name">by <a>John Smith</a></p>
+          <p class="article-description">Lorem ipsum dolor sit amet,
+            no porro appareat officiis usu, nullam euripidis vulputate ad
+            nec, te pri epicurei adolescens instructior. Commodo iuvaret
+            invidunt qui et, in nominavi partiendo delicatissimi eos.</p>
+          <a class="arrow" href="#">→</a>
+        </div>
+      </article>
+      <article class="lastest-post-article">
+        <div class="g-wrapper">
+          <p class="published-date">4 days ago</p>
+          <h1 class="mid-article-title"><a href="#">Lorem Ipsum Dolor Sit Amet</a></h1>
+          <p class="author-name">by <a>John Smith</a></p>
+          <p class="article-description">Lorem ipsum dolor sit amet,
+            no porro appareat officiis usu, nullam euripidis vulputate ad
+            nec, te pri epicurei adolescens instructior. Commodo iuvaret
+            invidunt qui et, in nominavi partiendo delicatissimi eos.</p>
+          <a class="arrow" href="#">→</a>
+        </div>
+      </article>
+      <article class="lastest-post-article">
+        <div class="g-wrapper">
+          <p class="published-date">4 days ago</p>
+          <h1 class="mid-article-title"><a href="#">Lorem Ipsum Dolor Sit Amet</a></h1>
+          <p class="author-name">by <a>John Smith</a></p>
+          <p class="article-description">Lorem ipsum dolor sit amet,
+            no porro appareat officiis usu, nullam euripidis vulputate ad
+            nec, te pri epicurei adolescens instructior. Commodo iuvaret
+            invidunt qui et, in nominavi partiendo delicatissimi eos.</p>
+          <a class="arrow" href="#">→</a>
+        </div>
+      </article>
+      <div class="shopify-ad">
+        <p class="friends">Our friends and suporters <span>↓</span></p>
+        <div class="ad-box">
+          <img
+            src="https://cats.smashing.services/catch?uri=https://res.cloudinary.com/indysigner/image/upload/c_scale,w_250/v1598870722/ads/ShopifyPartners-Panel.svg"
+            alt="Shopify-logo">
+          <p>Earn Recurring in nominavi partiendo delicatissimi eos</p>
+          <button class="shopify-button" type="button">SIGN UP TODAY <span>→</span></button>
+        </div>
+      </div>
+      <div class="special-div smashing-members">
+        <a href="#"><img src="assets/images/singing-barista.svg" alt="Cat with coffee"></a>
+        <h1 class="special-div-title">New on Smashing TV</h1>
+        <p class="special-div-description">orem ipsum dolor sit amet,
+          no porro appareat officiis usu, nullam euripidis vulputate ad
+          nec, te pri epicurei adolescens instructior. Commodo iuvaret
+          invidunt qui et, in nominavi</p>
+        <button class="button special-button" type="button">Explore features</button>
+        <p class="have-account">Already have an account? <a href="#">Sign in!</a></p>
+      </div>
+      <article class="lastest-post-article">
+        <div class="g-wrapper">
+          <p class="published-date">4 days ago</p>
+          <h1 class="mid-article-title"><a href="#">Lorem Ipsum Dolor Sit Amet</a></h1>
+          <p class="author-name">by <a>John Smith</a></p>
+          <p class="article-description">Lorem ipsum dolor sit amet,
+            no porro appareat officiis usu, nullam euripidis vulputate ad
+            nec, te pri epicurei adolescens instructior. Commodo iuvaret
+            invidunt qui et, in nominavi partiendo delicatissimi eos.</p>
+          <a class="arrow" href="#">→</a>
+        </div>
+      </article>
+      <article class="lastest-post-article">
+        <div class="g-wrapper">
+          <p class="published-date">4 days ago</p>
+          <h1 class="mid-article-title"><a href="#">Lorem Ipsum Dolor Sit Amet</a></h1>
+          <p class="author-name">by <a>John Smith</a></p>
+          <p class="article-description">Lorem ipsum dolor sit amet,
+            no porro appareat officiis usu, nullam euripidis vulputate ad
+            nec, te pri epicurei adolescens instructior. Commodo iuvaret
+            invidunt qui et, in nominavi partiendo delicatissimi eos.</p>
+          <a class="arrow" href="#">→</a>
+        </div>
+      </article>
+      <article class="lastest-post-article">
+        <div class="g-wrapper">
+          <p class="published-date">4 days ago</p>
+          <h1 class="mid-article-title"><a href="#">Lorem Ipsum Dolor Sit Amet</a></h1>
+          <p class="author-name">by <a>John Smith</a></p>
+          <p class="article-description">Lorem ipsum dolor sit amet,
+            no porro appareat officiis usu, nullam euripidis vulputate ad
+            nec, te pri epicurei adolescens instructior. Commodo iuvaret
+            invidunt qui et, in nominavi partiendo delicatissimi eos.</p>
+          <a class="arrow" href="#">→</a>
+        </div>
+      </article>
+      <article class="lastest-post-article">
+        <div class="g-wrapper">
+          <p class="published-date">4 days ago</p>
+          <h1 class="mid-article-title"><a href="#">Lorem Ipsum Dolor Sit Amet</a></h1>
+          <p class="author-name">by <a>John Smith</a></p>
+          <p class="article-description">Lorem ipsum dolor sit amet,
+            no porro appareat officiis usu, nullam euripidis vulputate ad
+            nec, te pri epicurei adolescens instructior. Commodo iuvaret
+            invidunt qui et, in nominavi partiendo delicatissimi eos.</p>
+          <a class="arrow" href="#">→</a>
+        </div>
+      </article>
+      <div class="special-div smashing-tv">
+        <a href="#"><img src="assets/images/cat-smashing-tv-2.svg" alt="Cat-smashing-tv"></a>
+        <h1 class="special-div-title">New on Smashing TV</h1>
+        <p>Commodo iuvaret
+          invidunt qui et, in nominavi partiendo delicatissimi eos</p>
+        <button class="button special-button" type="button">Explore features</button>
+        <p class="have-account">Already have an account? <a href="#">Sign in!</a></p>
+      </div>
+      <a class="more-links" href="#">SEE ALL LATEST ARTICLES &nbsp; <span>→</span></a>
+    </section>
+    <div class="big-blue-ad d-flex">
+      <div class="blue-ad-container d-flex">
+        <p class="shipping-date">JUNE 2020 • SHIPPING NOW</p>
+        <h1 class="special-div-title">Meet “Click!”: Encourage Clicks
+          Without Shady Tricks</h1>
+        <p>Our new book on how to <strong> boost business KPIs </strong>, build trust and address doubts <br>
+          effectively —
+          without alienating people along the way. By Paul Boag.</p>
+        <button class="button special-button" type="button">Jump to table of contents →</button>
+        <a class="big-blue-ad-img" href="#"><img src="assets/images/click__homepage-illustration.svg"
+            alt="Cat- homepage illustration"></a>
+      </div>
+    </div>
+    <section class="community-links">
+      <h4 class="section-titles-h4 community-links-title"><span>-------- Community Links</span></h4>
+      <div class="person-highlight d-flex">
+        <img class="person-highlight-picture"
+          src="https://cloud.netlifyusercontent.com/assets/344dbf88-fdf9-42bb-adb4-46f01eedd629/68c1cc8b-2b07-488c-83d7-4b0534f3b9e3/ben-hong-opt.png"
+          alt="square">
+        <div class="bio d-flex">
+          <h2>PERSON OF THE WEEK</h2>
+          <p class="description">Lorem ipsum dolor sit amet,
+            no porro appareat officiis usu, nullam euripidis vulputate ad
+            nec, te pri epicurei adolescens instructior. Commodo iuvaret
+            invidunt qui et, in nominavi partiendo delicatissimi eos. Lorem ipsum dolor sit amet,
+            no porro appareat officiis usu, nullam euripidis vulputate ad
+            nec, te pri epicurei adolescens instructior. Commodo iuvaret
+            invidunt qui et, in nominavi partiendo delicatissimi eos. Lorem ipsum dolor sit amet,
+            no porro appareat officiis usu.</p>
+        </div>
+      </div>
+      <article class="community-links-article">
+        <img src="assets/images/iris-lj-200px.jpg" alt="Author-img">
+        <div class="article-info">
+          <span class="author-name"><strong>Kelvin Omereshore</strong><em>wrote</em></span>
+          <h1 class="article-title"><a href="#">Lorem Ipsum Dolor Sit Amet</a></h1>
+          <p class="article-description"><span class="published-date">October 16, 2020 — </span>
+            Lorem ipsum dolor sit amet,
+            no porro appareat officiis usu, <a href="#">nullam euripidis</a> vulputate
+            ad nec, te pri epicurei adolescens instructior. Commodo iuvaret
+            invidunt qui et, in nominavi partiendo delicatissimi eos.</p>
+        </div>
+      </article>
+      <article class="community-links-article">
+        <img src="assets/images/iris-lj-200px.jpg" alt="Author-img">
+        <div class="article-info">
+          <span class="author-name"><strong>Kelvin Omereshore</strong><em>wrote</em></span>
+          <h1 class="article-title"><a href="#">Lorem Ipsum Dolor Sit Amet</a></h1>
+          <p class="article-description"><span class="published-date">October 16, 2020 — </span>
+            Lorem ipsum dolor sit amet,
+            no porro appareat officiis usu, <a href="#">nullam euripidis</a> vulputate
+            ad nec, te pri epicurei adolescens instructior. Commodo iuvaret
+            invidunt qui et, in nominavi partiendo delicatissimi eos.</p>
+        </div>
+      </article>
+      <article class="community-links-article">
+        <img src="assets/images/iris-lj-200px.jpg" alt="Author-img">
+        <div class="article-info">
+          <span class="author-name"><strong>Kelvin Omereshore</strong><em>wrote</em></span>
+          <h1 class="article-title"><a href="#">Lorem Ipsum Dolor Sit Amet</a></h1>
+          <p class="article-description"><span class="published-date">October 16, 2020 — </span>
+            Lorem ipsum dolor sit amet,
+            no porro appareat officiis usu, <a href="#">nullam euripidis</a> vulputate
+            ad nec, te pri epicurei adolescens instructior. Commodo iuvaret
+            invidunt qui et, in nominavi partiendo delicatissimi eos.</p>
+        </div>
+      </article>
+      <article class="community-links-article">
+        <img src="assets/images/iris-lj-200px.jpg" alt="Author-img">
+        <div class="article-info">
+          <span class="author-name"><strong>Kelvin Omereshore</strong><em>wrote</em></span>
+          <h1 class="article-title"><a href="#">Lorem Ipsum Dolor Sit Amet</a></h1>
+          <p class="article-description"><span class="published-date">October 16, 2020 — </span>
+            Lorem ipsum dolor sit amet,
+            no porro appareat officiis usu, <a href="#">nullam euripidis</a> vulputate
+            ad nec, te pri epicurei adolescens instructior. Commodo iuvaret
+            invidunt qui et, in nominavi partiendo delicatissimi eos.</p>
+        </div>
+      </article>
+      <article class="community-links-article">
+        <img src="assets/images/iris-lj-200px.jpg" alt="Author-img">
+        <div class="article-info">
+          <span class="author-name"><strong>Kelvin Omereshore</strong><em>wrote</em></span>
+          <h1 class="article-title"><a href="#">Lorem Ipsum Dolor Sit Amet</a></h1>
+          <p class="article-description"><span class="published-date">October 16, 2020 — </span>
+            Lorem ipsum dolor sit amet,
+            no porro appareat officiis usu, <a href="#">nullam euripidis</a> vulputate
+            ad nec, te pri epicurei adolescens instructior. Commodo iuvaret
+            invidunt qui et, in nominavi partiendo delicatissimi eos.</p>
+        </div>
+      </article>
+      <article class="community-links-article">
+        <img src="assets/images/iris-lj-200px.jpg" alt="Author-img">
+        <div class="article-info">
+          <span class="author-name"><strong>Kelvin Omereshore</strong><em>wrote</em></span>
+          <h1 class="article-title"><a href="#">Lorem Ipsum Dolor Sit Amet</a></h1>
+          <p class="article-description"><span class="published-date">October 16, 2020 — </span>
+            Lorem ipsum dolor sit amet,
+            no porro appareat officiis usu, <a href="#">nullam euripidis</a> vulputate
+            ad nec, te pri epicurei adolescens instructior. Commodo iuvaret
+            invidunt qui et, in nominavi partiendo delicatissimi eos.</p>
+        </div>
+      </article>
+      <a class="more-links" href="#">MORE LINKS ON TWITTER &nbsp; <span>→</span></a>
+    </section>
+    <div class="special-div featured">
+      <div class="special-div-text d-flex">
+        <span>FEATURED SMASHING BOOK</span>
+        <h1 class="special-div-title">Design Systems</h1>
+        <p>Commodo iuvaret invidunt qui et, in nominavi partiendo delicatissimi eos React, Vue, or perhaps the
+          lightweight Alpine.js? Whether you are an experienced
+          JavaScript developer working. Te pri epicurei adolescens instructior</p>
+        <button class="button special-button" type="button">Jump to table of contents ↬</button>
+      </div>
+      <div>
+        <a href="#"><img src="assets/images/design-systems-hardcover-book.png" alt="Red book"></a>
+      </div>
+    </div>
+    <section class="our-guides">
+      <h4 class="section-titles-h4 our-guides-title"><span>-------- Our Guides</span></h4>
+      <article class="card">
+        <span>A SMASHING GUIDE TO</span>
+        <h1 class="card-title">JacaScript & Frameworks</h1>
+        <p>React, Vue, or perhaps the lightweight Alpine.js? Whether you are an experienced
+          JavaScript developer working with one of these frameworks, or just starting to learn,
+          our authors have created some tutorials for you.</p>
+        <button class="button special-button" type="button">Explore Javascript & Frameworks</button>
+      </article>
+      <article class="card">
+        <span>A SMASHING GUIDE TO</span>
+        <h1 class="card-title">JacaScript & Frameworks</h1>
+        <p>React, Vue, or perhaps the lightweight Alpine.js? Whether you are an experienced
+          JavaScript developer working with one of these frameworks, or just starting to learn,
+          our authors have created some tutorials for you.</p>
+        <button class="button special-button" type="button">Explore Javascript & Frameworks</button>
+      </article>
+      <article class="card">
+        <span>A SMASHING GUIDE TO</span>
+        <h1 class="card-title">JacaScript & Frameworks</h1>
+        <p>React, Vue, or perhaps the lightweight Alpine.js? Whether you are an experienced
+          JavaScript developer working with one of these frameworks, or just starting to learn,
+          our authors have created some tutorials for you.</p>
+        <button class="button special-button" type="button">Explore Javascript & Frameworks</button>
+      </article>
+      <article class="card newsletter">
+        <a href="#">
+          <h1 class="card-title">JacaScript & Frameworks</h1>
+        </a>
+        <p>React, Vue, or perhaps the lightweight Alpine.js? Whether you are an experienced
+          JavaScript developer working with one of these frameworks, or just starting to learn,
+          our authors have created some tutorials for you.</p>
+        <form class="newsletter-form d-flex" action="#" method="POST">
+          <input type="email" name="email" id="email" placeholder="Your email">
+          <span><input type="submit" value="Meow!"></span>
+        </form>
+        <p>Front-end, UX and design. 1× a week.
+          You can always unsubscribe with just 1 click.</p>
+      </article>
+      <a class="more-links" href="#">SEE ALL GUIDES &nbsp; <span>→</span></a>
+    </section>
+  </main>
+  <footer class="footer d-flex">
+    <h4 class="topics-title">BROWSE ALL SMASHING MAGAZINE TOPICS</h4>
+    <ul class="topic-links d-flex">
+      <li><a href="#">Topic1</a></li>
+      <li><a href="#">Topic2</a></li>
+      <li><a href="#">Topic3</a></li>
+      <li><a href="#">Topic4</a></li>
+      <li><a href="#">Topic5</a></li>
+      <li><a href="#">Topic6</a></li>
+      <li><a href="#">Topic7</a></li>
+      <li><a href="#">Topic8</a></li>
+      <li><a href="#">Topic9</a></li>
+      <li><a href="#">Topic10</a></li>
+      <li><a href="#">Topic11</a></li>
+      <li><a href="#">Topic12</a></li>
+      <li><a href="#">Topic13</a></li>
+      <li><a href="#">Topic14</a></li>
+      <li><a href="#">Topic15</a></li>
+      <li><a href="#">Topic16</a></li>
+      <li><a href="#">Topic17</a></li>
+      <li><a href="#">Topic18</a></li>
+      <li><a href="#">Topic19</a></li>
+      <li><a href="#">Topic20</a></li>
+      <li><a href="#">Topic21</a></li>
+      <li><a href="#">Topic22</a></li>
+      <li><a href="#">Topic23</a></li>
+      <li><a href="#">Topic24</a></li>
+      <li><a href="#">Topic25</a></li>
+      <li><a href="#">Topic26</a></li>
+      <li><a href="#">Topic27</a></li>
+      <li><a href="#">Topic28</a></li>
+      <li><a href="#">Topic29</a></li>
+      <li><a href="#">Topic30</a></li>
+      <li><a href="#">Topic31</a></li>
+      <li><a href="#">Topic32</a></li>
+      <li><a href="#">Topic33</a></li>
+      <li><a href="#">Topic34</a></li>
+      <li><a href="#">Topic35</a></li>
+    </ul>
+    <p>
+      <em> With a commitment to quality content for the design community. </em><br>
+      Founded by Vitaly Friedman and Sven Lennartz. 2006–2020. <br>
+      Smashing is proudly running on Netlify. <br>
+      Fonts by Latinotype.
+    </p>
+    <nav class="nav-footer">
+      <ul class="nav-footer-items d-flex">
+        <li>✎<a href="#">Write for us</a></li>
+        <li><a href="#">Contact us</a></li>
+        <li><a href="#">About us (Impressum)</a></li>
+        <li><a href="#">Privacy policy</a></li>
+        <li><a href="#">Membership ligin</a></li>
+        <li><a href="#">Delivery times</a></li>
+        <li><a href="#">Advertise</a></li>
+      </ul>
+    </nav>
+    <a href="#" class="back-to-top square-button">
+    </a>
+  </footer>
 </body>
+
 </html>
