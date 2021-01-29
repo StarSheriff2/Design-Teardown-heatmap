@@ -25,7 +25,7 @@ We used CSS Grid, Flexbox and Floats to build the layout.
 
 - GitHub: [@StarSheriff2](https://github.com/StarSheriff2)
 - Twitter: [@Turo_83](https://twitter.com/Turo_83)
-- LinkedIn: [Carlos Alvarez](https://www.linkedin.com/in/carlosalvarezveroy/)
+- LinkedIn: [Arturo Alvarez](https://www.linkedin.com/in/arturoalvarezv/)
 
 👤 **Alejandro Contreras**
 
